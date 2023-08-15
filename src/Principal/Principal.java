@@ -20,6 +20,13 @@ public class Principal {
         busca = leitura.nextLine();
 
         ConsultaCep consultaCep = new ConsultaCep();
-        consultaCep.buscaEndereco(busca);
+        try {
+            Endereco novoEndereco = consultaCep.buscaEndereco(busca);
+            System.out.println(novoEndereco);
+        } catch(RuntimeException e) {
+            System.out.println(e.getMessage());
+            System.out.println("Finalizando aplicação !");
+        }
+
     }
 }

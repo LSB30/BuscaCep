@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e0e5f7b-14d5-48ad-af02-c69467222d08" name="Changes" comment="Init">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Principal/ConsultaCep.java" afterDir="false" />
+    <list default="true" id="7e0e5f7b-14d5-48ad-af02-c69467222d08" name="Changes" comment="Refactor: 🛠 class Endereco.java">
+      <change afterPath="$PROJECT_DIR$/src/Principal/GeradorDeArquivo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modelos/Cep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modelos/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal/ConsultaCep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal/ConsultaCep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +25,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="51f6aaa6-f99e-40d3-acc1-5ac748025ea8" />
+        <option name="url" value="https://github.com/LSB30/BuscaCep.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectId" id="2U1dGjwFUKAqNXv8c2icJgWT7b4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -61,11 +73,20 @@
       <option name="project" value="LOCAL" />
       <updated>1692116749816</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactor: 🛠 class Endereco.java">
+      <option name="closed" value="true" />
+      <created>1692118718294</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692118718294</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Refactor:  class Endereco.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor:  class Endereco.java" />
   </component>
 </project>
