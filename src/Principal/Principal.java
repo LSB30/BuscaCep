@@ -1,6 +1,6 @@
 package Principal;
 
-import Modelos.Cep;
+import Modelos.Endereco;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -18,21 +18,8 @@ public class Principal {
         String busca = "";
         System.out.println("Informe seu cep: ");
         busca = leitura.nextLine();
-        String endereco = "https://viacep.com.br/ws/" + busca + "/json/";
 
-        try {
-            HttpClient client = HttpClient.newHttpClient();
-            HttpRequest request = HttpRequest.newBuilder()
-                    .uri(URI.create(endereco))
-                    .build();
-
-            HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-            String json = response.body();
-
-            Cep meucep = gson.fromJson(json, Cep.class);
-            System.out.println(meucep);
-        }catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
+        ConsultaCep consultaCep = new ConsultaCep();
+        consultaCep.buscaEndereco(busca);
     }
 }
